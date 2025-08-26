@@ -5,5 +5,5 @@ import tailwindcss from "@tailwindcss/vite";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "https://github.com/chandrakantdubey/mobile-app-demo",
+  base: "https://chandrakantdubey.github.io/mobile-app-demo",
 });
