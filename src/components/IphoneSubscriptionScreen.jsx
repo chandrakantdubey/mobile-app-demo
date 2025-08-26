@@ -49,7 +49,7 @@ const IphoneSubscriptionScreen = () => {
   // --- UI Section Components ---
 
   const Header = () => (
-    <div className="p-4 text-center">
+    <div className="p-4 text-center mt-4">
       <div className="w-16 h-16 bg-black text-white rounded-2xl mx-auto flex items-center justify-center mb-3">
         <SparklesIcon />
       </div>

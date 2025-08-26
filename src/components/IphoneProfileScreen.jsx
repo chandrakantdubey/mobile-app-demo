@@ -81,7 +81,7 @@ const IphoneProfileScreen = () => {
   // --- UI Section Components ---
 
   const ProfileCard = () => (
-    <div className="p-4">
+    <div className="p-4 mt-4">
       <div className="flex items-center">
         <div className="w-20 h-20 bg-gray-300 rounded-full flex-shrink-0"></div>
         <div className="ml-4">

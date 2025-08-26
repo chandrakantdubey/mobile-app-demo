@@ -163,7 +163,7 @@ const IphoneCommunityScreen = () => {
   // --- UI Section Components ---
 
   const Header = () => (
-    <div className="p-4 border-b border-gray-200">
+    <div className="p-4 border-b border-gray-200 mt-4">
       <h1 className="text-2xl font-bold text-center text-black">Community</h1>
     </div>
   );

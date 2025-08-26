@@ -107,7 +107,7 @@ const IphoneDashboardScreen = () => {
   // --- UI Section Components ---
 
   const Header = () => (
-    <div className="flex justify-between items-center p-4">
+    <div className="flex justify-between items-center p-4 mt-4">
       <div>
         <p className="text-sm text-gray-500">Welcome Back,</p>
         <h1 className="text-2xl font-bold text-black">Alex</h1>
@@ -151,7 +151,7 @@ const IphoneDashboardScreen = () => {
   );
 
   const DashboardMeters = () => (
-    <div className="flex justify-around p-4">
+    <div className="flex justify-around p-4 mt-">
       <Meter
         title="Spent"
         value="₹12,450"
