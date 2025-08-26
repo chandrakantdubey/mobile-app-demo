@@ -4,7 +4,7 @@ import MobileApp from "./pages/MobileApp";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/mobile-app-demo">
       <Routes>
         <Route path="/" element={<MobileApp />} />
         <Route path="/data-fetching" element={<DataFetching />} />
